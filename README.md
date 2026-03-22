@@ -7,10 +7,10 @@ Este repositório organiza meus estudos em **Fundamentos de Desenvolvimento Web*
 ## 📚 Conteúdos
 
 ### 📄 HTML
--
+- [WEB I (IFNMG)](https://github.com/Thiagneves/fundamentals-web/tree/main/HTML/web-fundamentos-IFNMG)
 
 ### 📝 Documentação
--   
+- [PDFs e Documentos](https://github.com/Thiagneves/fundamentals-web/tree/main/documentacao)
 
 ---
 
