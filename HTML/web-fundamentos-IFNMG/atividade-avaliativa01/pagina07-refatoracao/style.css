@@ -1,0 +1,36 @@
+/* 
+VANTAGENS DO CSS EXTERNO:
+- Organização
+- Reutilização
+- Performance
+- Padrão profissional
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.titulo {
+    color: red;
+    text-align: center;
+}
+
+.texto {
+    font-size: 16px;
+}
+
+.destaque {
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.imagem {
+    width: 50%;
+    height: 50%;
+}
+
+.codigo-ruim {
+    text-align: center;
+}

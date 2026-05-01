@@ -1,0 +1,12 @@
+p {
+    font-size: 16px;
+}
+
+#destaque {
+    font-weight: bold;
+}
+
+.importante {
+    font-weight: 500;
+    color: blue;
+}

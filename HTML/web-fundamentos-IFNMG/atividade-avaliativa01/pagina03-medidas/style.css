@@ -1,0 +1,39 @@
+.secao01 h1 {
+    font-size: 40px;
+}
+
+.secao01 p {
+    font-size: 16px;
+}
+/******************************************/
+
+.secao02 h1 {
+    font-size: 4.0em;
+}
+
+.secao02 p {
+    font-size: 1.6em;
+}
+
+/******************************************/
+
+.secao03 h1 {
+    font-size: 4.0rem;
+}
+
+.secao03 p {
+    font-size: 1.6rem;
+}
+
+/******************************************/
+
+.secao04 h1 {
+    font-size: 10vw;
+}
+
+.secao04 p {
+    font-size: 4vh;
+}
+
+
+

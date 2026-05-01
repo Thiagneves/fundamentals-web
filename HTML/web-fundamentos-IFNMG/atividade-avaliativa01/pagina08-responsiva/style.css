@@ -1,0 +1,123 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /*HEX*/
+    padding: 0 5%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: #ff0000;
+}
+
+.conteudo {
+    margin-top: 50px;
+    padding: 2rem;
+    background-color: rgb(230, 230, 230);
+}
+
+.rodape {
+    background-color: rgba(34, 34, 34, 0.8);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 3px solid #ff0000;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.redes-sociais a {
+    color: #ff0000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 668px) {
+
+    .menu {
+        flex-direction: column;
+        height: auto;
+        padding: auto;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    /* Ajuste importante: menu cresce, então aumentamos o espaço */
+    body {
+        padding-top: 200px;
+    }
+
+    .conteudo {
+        padding: 1rem;
+    }
+}
+
+/* CELULARES */
+@media (max-width: 480px) {
+
+    .menu a {
+        font-size: 14px;
+    }
+
+    body {
+        padding-top: 200px;
+    }
+
+    .conteudo {
+        padding: 0.8rem;
+    }
+
+    .footer-content p {
+        font-size: 12px;
+    }
+
+    .redes-sociais a {
+        display: block;
+        margin: 5px 0;
+    }
+}

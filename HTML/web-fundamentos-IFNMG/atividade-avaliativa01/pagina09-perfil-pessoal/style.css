@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+    text-transform: uppercase;
+    background: linear-gradient(to right, #0a00cb, #000000, #49008a, #0a00cb);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: moverGradiente 2s infinite linear;
+}
+
+@keyframes moverGradiente {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 200%;
+    }
+}
+
+.fotoperfil img{
+    width: 200px;
+    height: auto;   
+}
+
+.header {
+    display: flex;
+    gap: 15px;
+}
+
+p {
+    text-align: justify;
+}
